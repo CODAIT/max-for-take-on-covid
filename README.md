@@ -30,13 +30,16 @@ Identify objects (people, animals, etc) in images!
 
 You can create a custom version of this web app using the Python and Node.js examples.
 
-What you need:
+### What you need:
  - Python (v3.x) or Node.js (v10+)
- - git
+ - git (optional)
 
-- [Python](https://github.com/IBM/max-tutorial-app-python/blob/solution/README.md)
 
-  - Run these commands
+### Steps:
+
+- [Python instructions](https://github.com/IBM/max-tutorial-app-python/blob/solution/README.md)
+
+  - If you have git installed, run these commands
    ```
    git clone https://github.com/IBM/max-tutorial-app-python.git
    cd max-tutorial-app-python
@@ -44,9 +47,22 @@ What you need:
    git checkout solution
    python app.py --ml-endpoint=http://max-object-detector.codait-prod-41208c73af8fca213512856c7a09db52-0000.us-east.containers.appdomain.cloud
    ```
+
+  - If you don't have git installed, 
+    - Open https://github.com/IBM/max-tutorial-app-python/tree/solution
+    - Click "Clone or download"
+    - Click "Download ZIP"
+    - Run these commands in the extracted `max-tutorial-app-python-solution` directory
+      ```
+      pip install -r requirements.txt
+      git checkout solution
+      python app.py --ml-endpoint=http://max-object-detector.codait-prod-41208c73af8fca213512856c7a09db52-0000.us-east.containers.appdomain.cloud
+      ```
+   
+   
   - Open http://localhost:8090 in your web browser
 
-- [Node.js](https://github.com/IBM/max-tutorial-app-nodejs/blob/solution/README.md)
+- [Node.js instructions](https://github.com/IBM/max-tutorial-app-nodejs/blob/solution/README.md)
   ```
   git clone https://github.com/IBM/max-tutorial-app-nodejs.git
   cd max-tutorial-app-nodejs
