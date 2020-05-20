@@ -1,15 +1,26 @@
 # Use deep learning in your applications
 
-You can use ready-to-use deep learning microservices that are running on the IBM Cloud
-- Goto https://developer.ibm.com/exchanges/models/all/
-- Pick a model that seems interesting to you (e.g. the [Object Detector](https://developer.ibm.com/exchanges/models/all/max-object-detector/)
+You can use ready-to-use deep learning microservices that are running on the IBM Cloud to 
+- detect objects in images
+- generate image captions
+- identify sounds
+- convert speech to text
+- and much more!
+
+You can find a complete list at https://developer.ibm.com/exchanges/models/all/
+- Pick a model that might be of interest to you (e.g. the [Object Detector](https://developer.ibm.com/exchanges/models/all/max-object-detector/))
 - Click "Try the API" 
 
 
-## Sample code pens
+## Sample JavaScript code pens
+
+You can consume these microservices in your web browser using JavaScript.
 
 What you need:
- - web browser
+ - Web browser
+ 
+- Open https://codepen.io/collection/DzdpJM/#
+- Try one of the examples
 
 ## Sample web applications
 
@@ -17,10 +28,11 @@ Identify objects (people, animals, etc) in images!
 - Goto https://developer.ibm.com/exchanges/models/all/max-object-detector/
 - Click "Try the web-app" to see the demo (no installation required)
 
-You can write your own web app using these examples.
+You can create a custom version of this web app using the Python and Node.js examples.
 
 What you need:
  - Python (v3.x) or Node.js (v10+)
+ - git
 
 - [Python](https://github.com/IBM/max-tutorial-app-python/blob/solution/README.md)
 
