@@ -11,10 +11,12 @@ You can find a complete list at https://developer.ibm.com/exchanges/models/all/
 - Pick a model that might be of interest to you (e.g. the [Object Detector](https://developer.ibm.com/exchanges/models/all/max-object-detector/))
 - Click "Try the API" 
 
-
+---
 ## Sample JavaScript code pens
 
 You can consume these microservices in your web browser using JavaScript.
+
+![web app example](doc/images/javascript_pens.png)
 
 What you need:
  - Web browser
@@ -22,11 +24,14 @@ What you need:
 - Open https://codepen.io/collection/DzdpJM/#
 - Try one of the examples
 
+---
 ## Sample web applications
 
 Identify objects (people, animals, etc) in images! 
 - Goto https://developer.ibm.com/exchanges/models/all/max-object-detector/
 - Click "Try the web-app" to see the demo (no installation required)
+
+![web app example](doc/images/sample_web_app.png)
 
 You can create a custom version of this web app using the Python and Node.js examples.
 
@@ -84,10 +89,12 @@ You can create a custom version of this web app using the Python and Node.js exa
 
   - Open http://localhost:8090 in your web browser
 
-
+---
 ## Internet of Things deep learning sample
 
 You can consume the microservices in an Internet of Things (IOT) application.
+
+![IOT example](doc/images/iot.png)
 
 What you need:
 - Docker Desktop
