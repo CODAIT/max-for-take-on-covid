@@ -97,7 +97,7 @@ You can consume the microservices in an Internet of Things (IOT) application.
 ![IOT example](doc/images/iot.png)
 
 What you need:
-- Docker Desktop
+- [Docker Desktop](https://www.docker.com/products/docker-desktop)
 
 ### Steps
 
