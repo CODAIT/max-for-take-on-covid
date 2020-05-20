@@ -1,10 +1,10 @@
 # Use deep learning in your applications
 
-You can use ready-to-use deep learning microservices that are running on the IBM Cloud to 
-- detect objects in images
-- generate image captions
-- identify sounds
-- convert speech to text
+You can use ready-to-use deep learning microservices from the Model Asset Exchange (MAX) that are running on the IBM Cloud to 
+- detect objects in images,
+- generate image captions,
+- identify sounds,
+- convert speech to text,
 - and much more!
 
 You can find a complete list at https://developer.ibm.com/exchanges/models/all/
@@ -82,12 +82,16 @@ You can create a custom version of this web app using the Python and Node.js exa
       node app.js --model=http://max-object-detector.codait-prod-41208c73af8fca213512856c7a09db52-0000.us-east.containers.appdomain.cloud
       ```
 
-    - Open http://localhost:8090 in your web browser
+  - Open http://localhost:8090 in your web browser
 
 
 ## Internet of Things deep learning sample
 
+You can consume the microservices in an Internet of Things (IOT) application.
+
 What you need:
 - Docker Desktop
 
-https://github.com/CODAIT/max-node-red-docker-image
+### Steps
+
+Follow the instructions in https://github.com/CODAIT/max-node-red-docker-image. Additional details can be found in https://github.com/CODAIT/node-red-contrib-model-asset-exchange.
