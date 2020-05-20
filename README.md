@@ -40,13 +40,13 @@ You can create a custom version of this web app using the Python and Node.js exa
 - [Python instructions](https://github.com/IBM/max-tutorial-app-python/blob/solution/README.md)
 
   - If you have git installed, run these commands
-   ```
-   git clone https://github.com/IBM/max-tutorial-app-python.git
-   cd max-tutorial-app-python
-   pip install -r requirements.txt
-   git checkout solution
-   python app.py --ml-endpoint=http://max-object-detector.codait-prod-41208c73af8fca213512856c7a09db52-0000.us-east.containers.appdomain.cloud
-   ```
+    ```
+    git clone https://github.com/IBM/max-tutorial-app-python.git
+    cd max-tutorial-app-python
+    pip install -r requirements.txt
+    git checkout solution
+    python app.py --ml-endpoint=http://max-object-detector.codait-prod-41208c73af8fca213512856c7a09db52-0000.us-east.containers.appdomain.cloud
+    ```
 
   - If you don't have git installed, 
     - Open https://github.com/IBM/max-tutorial-app-python/tree/solution
@@ -58,18 +58,30 @@ You can create a custom version of this web app using the Python and Node.js exa
       git checkout solution
       python app.py --ml-endpoint=http://max-object-detector.codait-prod-41208c73af8fca213512856c7a09db52-0000.us-east.containers.appdomain.cloud
       ```
-   
-   
+      
   - Open http://localhost:8090 in your web browser
 
 - [Node.js instructions](https://github.com/IBM/max-tutorial-app-nodejs/blob/solution/README.md)
-  ```
-  git clone https://github.com/IBM/max-tutorial-app-nodejs.git
-  cd max-tutorial-app-nodejs
-  git checkout solution
-  npm install
-  node app.js --model=http://max-object-detector.codait-prod-41208c73af8fca213512856c7a09db52-0000.us-east.containers.appdomain.cloud
-  ```
+
+  - If you have git installed, run these commands
+    ```
+    git clone https://github.com/IBM/max-tutorial-app-nodejs.git
+    cd max-tutorial-app-nodejs
+    git checkout solution
+    npm install
+    node app.js --model=http://max-object-detector.codait-prod-41208c73af8fca213512856c7a09db52-0000.us-east.containers.appdomain.cloud
+    ```
+
+  - If you don't have git installed, 
+    - Open https://github.com/IBM/max-tutorial-app-nodejs/tree/solution
+    - Click "Clone or download"
+    - Click "Download ZIP"
+    - Run these commands in the extracted `max-tutorial-app-nodejs-solution` directory
+      ```
+      npm install
+      node app.js --model=http://max-object-detector.codait-prod-41208c73af8fca213512856c7a09db52-0000.us-east.containers.appdomain.cloud
+      ```
+
     - Open http://localhost:8090 in your web browser
 
 
